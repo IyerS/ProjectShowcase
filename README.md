@@ -35,8 +35,7 @@ Customer Personality Analysis is a detailed analysis of a company’s ideal cust
 Customer personality analysis helps a business to modify its product based on its target customers from different types of customer segments. For example, instead of spending money to market a new product to every customer in the company’s database, a company can analyze which customer segment is most likely to buy the product and then market the product only on that particular segment.
 
 
-
-**PROJECT 3: Clustering / Segmenation for supermarket dataset
+**PROJECT 4: Logistic regression to predict Churn from Telecom
 SKILL SHOWCASE: Statistics basics and how to code in Python based on 1st principles**
 
 
