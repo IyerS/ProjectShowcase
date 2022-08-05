@@ -36,7 +36,8 @@ Customer personality analysis helps a business to modify its product based on it
 
 
 
-
+**PROJECT 3: Clustering / Segmenation for supermarket dataset
+SKILL SHOWCASE: Statistics basics and how to code in Python based on 1st principles**
 
 
 
