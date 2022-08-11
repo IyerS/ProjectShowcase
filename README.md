@@ -39,7 +39,8 @@ Customer personality analysis helps a business to modify its product based on it
 SKILL SHOWCASE: Statistics basics and how to code in Python based on 1st principles**
 
 
-
+**PROJECT 5: Text sentiment analysis from google reviews of restaurants. Predict the sentiment based on text
+SKILL SHOWCASE: Python, Tensorflow/Keras, text analysis
 
   
 
