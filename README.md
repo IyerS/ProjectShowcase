@@ -40,7 +40,8 @@ SKILL SHOWCASE: Statistics basics and how to code in Python based on 1st princip
 
 
 **PROJECT 5: Text sentiment analysis from google reviews of restaurants. Predict the sentiment based on text
-SKILL SHOWCASE: Python, Tensorflow/Keras, text analysis
+SKILL SHOWCASE: Python, Tensorflow/Keras, text analysis**
 
   
-
+**PROJECT 6: Chi square test to analyse impact of mailer type on signup using the grocery dataset
+SHILL SHOWCASE: Hypothesis testing and analysis**
