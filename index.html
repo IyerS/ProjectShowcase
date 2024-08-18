@@ -4,23 +4,46 @@ title: Home
 custom_css_class: home-page
 ---
 
-<section class="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-        {% for post in site.posts %}
-        <div class="project-card">
-            <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
-            <div class="card-content">
-                <div class="tags">
-                    {% for tag in post.tags %}
-                    <span class="tag">{{ tag }}</span>
-                    {% endfor %}
-                </div>
-                <h3 class="card-title">{{ post.title }}</h3>
-                <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-            </div>
+<section class="experience">
+  <h2>Experience</h2>
+  <div class="carousel">
+    {% for post in site.categories.experience limit:3 %}
+      <div class="project-card">
+        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+        <div class="card-content">
+          <div class="tags">
+            {% for tag in post.tags %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3 class="card-title">{{ post.title }}</h3>
+          <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </div>
-        {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
+  </div>
+  <a href="{{ site.baseurl }}/experience/" class="more-button">More Experience</a>
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
+  <div class="carousel">
+    {% for post in site.categories.projects limit:3 %}
+      <div class="project-card">
+        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+        <div class="card-content">
+          <div class="tags">
+            {% for tag in post.tags %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3 class="card-title">{{ post.title }}</h3>
+          <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <a href="{{ site.baseurl }}/projects/" class="more-button">More Projects</a>
 </section>
