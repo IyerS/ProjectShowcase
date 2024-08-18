@@ -3,6 +3,7 @@ layout: post
 title: Quantifying Sales Uplift With Causal Impact Analysis
 image: "/assets/img/project-images/causal-impact-title-img.png"
 tags: [Causal Impact Analysis, Python]
+category: projects
 ---
 
 In this project we use Causal Impact Analysis to analyse & understand the sales uplift of customers that joined the new "Delivery Club" campaign!.
