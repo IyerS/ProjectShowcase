@@ -211,6 +211,47 @@ nav a:active {
     font-size: 0.8em;
 }
 
+/* Carousel Styles */
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.carousel::-webkit-scrollbar { 
+  display: none;  /* WebKit */
+}
+
+.carousel .project-card {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+  scroll-snap-align: start;
+}
+
+/* More Button Styles */
+.more-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.more-button:hover {
+  background-color: #2980b9;
+}
+
+/* Section Styles */
+.experience, .projects {
+  margin-bottom: 40px;
+}
 @media (max-width: 768px) {
     .project-grid {
         grid-template-columns: 1fr;
