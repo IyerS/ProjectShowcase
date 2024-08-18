@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="project-grid">
+  {% for post in site.categories[page.category] %}
+    <div class="project-card">
+      <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+      <div class="card-content">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
